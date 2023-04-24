@@ -1,0 +1,110 @@
+.case {
+    /* width: 100vw; */
+    /* margin-top: 120px; */
+}
+
+.common .top {
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.common .top h1 {
+    font-size: 35px;
+    font-weight: 200;
+}
+
+.common .top .greenline1{
+    height: 2px;
+    background-color: orange;
+    width: 90%;
+    position: absolute;
+    right: 0;
+    top: 55px;
+}
+.common .top .greenline2{
+    height: 2px;
+    background-color: orange;
+    width: 90%;
+    margin-bottom: 5px;
+    position: absolute;
+    left: 0;
+    top: 60px;
+}
+
+.case-container {
+    display: flex;
+    padding: 20px 50px;
+}
+
+.case-container img {
+    height: 400px;
+    width: 400px;
+}
+
+.case-container .right {
+    height: 400px;
+    padding: 50px;
+    background-color: rgb(87, 86, 86);
+}
+
+.case-container .right .ctop {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.case-container .right .ctop button {
+    width: 120px;
+    height: 40px;
+    border: 1px solid goldenrod;
+    color: goldenrod;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.case-container .right .ctop p {
+    margin-bottom: 15px;
+    color: goldenrod;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.case-container .right .ctop h3 {
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    color: white;
+    margin-right: 200px;
+}
+
+.case-container .text {
+    font-size: 16px;
+    /* letter-spacing: 0.5px; */
+    word-spacing: 2px;
+    line-height: 25px;
+    color: rgb(220, 216, 216);
+    font-weight: 50;
+}
+
+.case .btns{
+    margin-left: 50px;
+}
+
+.case .btns button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    background: transparent;
+    margin-right: 15px;
+    cursor: pointer;
+}

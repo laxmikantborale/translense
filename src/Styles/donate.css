@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.donate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px 0;
+    height: 400px;
+    background-color: #FAFAFA;
+}
+
+.donate .left img {
+    height: 400px;
+    width: 550px;
+}
+
+.donate .right {
+    width: 380px;
+    margin-right: 200px;
+}
+
+.donate .right h1 {
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    line-height: 50px;
+}
+
+.donate .right p {
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: rgb(134, 129, 129);
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.donate .right button {
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(87, 86, 86);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}

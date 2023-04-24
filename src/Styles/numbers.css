@@ -1,0 +1,44 @@
+.numbers {
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.numbers .common {
+    /* height: 300px; */
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.numbers .circle {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1.5px solid rgb(225, 99, 99);
+    border-radius: 50%;
+    border-right: 3px solid rgb(54, 53, 53);
+    border-left: 3px solid rgb(54, 53, 53);
+    border-bottom: 3px solid #363535;
+    margin-bottom: 20px;
+}
+
+.numbers  h1 {
+    font-size: 50px;
+    color: #363535;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.numbers p {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
